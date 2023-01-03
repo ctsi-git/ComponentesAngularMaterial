@@ -34,7 +34,7 @@ export class LoginComponent implements OnInit {
 
     //TODO: verificar las credenciales del usuario
 
-    if(usuario == "admin" && password=="1234"){     //credenciales validas
+    if(usuario == "admin" && password =="1234"){     //credenciales validas
 
       this.transitionToDashboard();
 
