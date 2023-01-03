@@ -63,4 +63,4 @@ import {MatSelectModule} from '@angular/material/select';
     MatSelectModule,
   ]
 })
-export class SharedModule { }
+export class SharedModule {}
