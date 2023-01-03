@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //Componentes
 import { LoginComponent } from './components/login/login.component';
 import { SharedModule } from './components/shared/shared.module';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -18,7 +19,7 @@ import { SharedModule } from './components/shared/shared.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    SharedModule,
+    SharedModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
